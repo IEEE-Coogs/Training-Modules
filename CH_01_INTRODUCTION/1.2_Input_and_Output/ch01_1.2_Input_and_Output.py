@@ -27,10 +27,10 @@ print("Your score is {}".format(score))
 ### *File Input and Output* ###
 
 # Objective: Illustrate how to write a string to a file
-with open("output.txt", "w") as file:
+with open("../../Chapter01_Introduction/output.txt", "w") as file:
     file.write("This is a sample, creating and writing on output")
 
 # Objective: Show how to read the content from a file and print it
-with open("output.txt", "r") as file:
+with open("../../Chapter01_Introduction/output.txt", "r") as file:
     content = file.read()
     print(content)
